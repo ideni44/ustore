@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    padding: 20px 0;
+    background: rgb(211, 61, 61);
+    color: white;
+}
+
+.wrapper{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    &-left{
+        font-size: 35px;
+        &>a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    &-center{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        &-item>a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    &-right{
+        color: white;
+        cursor: pointer;
+        font-size: 35px;
+    }
+}
+
+.hero{
+    padding-top: 50px;
+    &-items{
+        display: flex;
+        justify-content: space-between;
+        &-left{
+            &-header{
+                font-size: 40px;
+                font-weight: 500;
+                padding:20px 0 20px 0
+            }
+            &-desc{
+                line-height:1.7;
+                font-size: 18px;
+            }
+        }
+        &-right{
+            height: 400px;
+        }
+    }
+}
+
+
+.feature{
+    padding-top: 50px;
+    &-header{
+        font-size: 30px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+    &-product-container{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-right: 30px;
+        &-item{
+            position: relative;
+            &-img{
+                height: 400px;
+            }
+            &-title{
+                position: absolute;
+                left: 160px;
+                padding-top: 10px;
+            }
+            &-price{
+                position: absolute;
+                top: 440px;
+                left: 182px;
+            }
+            &-button{
+                position: absolute;
+                top: 470px;
+                background: black;
+                border: 1px solid black;
+                color:white;
+                height: 30px;
+                width: 400px;
+                font-weight: 600;
+            }
+        }
+    }
+}

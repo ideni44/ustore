@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  padding: 20px 0;
+  background: #d33d3d;
+  color: white;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-list-left {
+  font-size: 35px;
+}
+
+.header-list-left > a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-list-center {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+}
+
+.header-list-center-item > a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-list-right {
+  color: white;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.hero {
+  padding-top: 50px;
+}
+
+.hero-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-items-left-header {
+  font-size: 40px;
+  font-weight: 500;
+  padding: 20px 0 20px 0;
+}
+
+.hero-items-left-desc {
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.hero-items-right {
+  height: 400px;
+}
+
+.feature {
+  padding-top: 50px;
+}
+
+.feature-header {
+  font-size: 30px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.feature-product-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 40px;
+  padding-right: 30px;
+}
+
+.feature-product-container-item {
+  position: relative;
+}
+
+.feature-product-container-item-img {
+  height: 400px;
+}
+
+.feature-product-container-item-title {
+  position: absolute;
+  left: 160px;
+  padding-top: 10px;
+}
+
+.feature-product-container-item-price {
+  position: absolute;
+  top: 440px;
+  left: 182px;
+}
+
+.feature-product-container-item-button {
+  position: absolute;
+  top: 470px;
+  background: black;
+  border: 1px solid black;
+  color: white;
+  height: 30px;
+  width: 400px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
