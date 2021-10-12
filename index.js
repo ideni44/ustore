@@ -19,7 +19,7 @@ const goods = [
         id:1,
         feature:true,
         available: true,
-        price:120,
+        price:80,
         img:'/goods/farcry6.jpg',
         title:'Far cry 6',
         genre:'Action-adventure'
@@ -28,7 +28,7 @@ const goods = [
         id:2,
         feature:false,
         available: true,
-        price:10,
+        price:20,
         img:'/goods/portal2.jpg',
         title:'Portal 2',
         genre:'Puzzle-platform'
@@ -37,7 +37,7 @@ const goods = [
         id:3,
         feature:false,
         available: true,
-        price:10,
+        price:5,
         img:'/goods/lostark.png',
         title:'Lost Ark',
         genre:'MMORPG'
@@ -54,14 +54,14 @@ const goods = [
         id:5,
         feature:false,
         available: false,
-        price:20,
+        price:30,
         img:'/goods/metro.jpg',
         title:'Metro:Last Night',
         genre:'Action-adventure'
     },
     {
         id:6,
-        feature:true,
+        feature:false,
         available: true,
         price:5,
         img:'/goods/dota.jpg',
@@ -70,7 +70,7 @@ const goods = [
     },
     {
         id:7,
-        feature:true,
+        feature:false,
         available: true,
         price:10,
         img:'/goods/civilization6.jpg',
@@ -79,7 +79,7 @@ const goods = [
     },
     {
         id:8,
-        feature:true,
+        feature:false,
         available: true,
         price:30,
         img:'/goods/crysis3.jpg',
@@ -88,7 +88,7 @@ const goods = [
     },
     {
         id:9,
-        feature:true,
+        feature:false,
         available: true,
         price:30,
         img:'/goods/farcry4.jpg',
@@ -99,7 +99,7 @@ const goods = [
         id:10,
         feature:false,
         available: true,
-        price:10,
+        price:5,
         img:'/goods/valorant.jpg',
         title:'valorant',
         genre: 'Tactical shooter'
@@ -108,7 +108,7 @@ const goods = [
         id:11,
         feature:true,
         available: true,
-        price:80,
+        price:100,
         img:'/goods/battlefield.jpeg',
         title:'battlefield 2042',
         genre: 'Tactical shooter'
@@ -126,7 +126,7 @@ const goods = [
         id:13,
         feature:false,
         available: true,
-        price:30,
+        price:40,
         img:'/goods/gta5.jpg',
         title:'grand theft auto v',
         genre: 'Action-adventure'

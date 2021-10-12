@@ -372,8 +372,8 @@ Hero
 .hero {
   min-height: 100vh;
   margin-top: -6rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(/backgroundmain.jpg) center/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/backgroundmain.jpg) center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(/background.jpg) center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/background.jpg) center/cover;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -917,7 +917,7 @@ Products Page
 
 @media screen and (min-width: 1170px) {
   .products-container {
-    -ms-grid-columns: (1fr);
+    -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -1000,5 +1000,16 @@ Single Product Page
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
+}
+
+.not-availabale {
+  font-size: 20px;
+  font-weight: 600;
+  background: white;
+  border-radius: 10%;
+}
+
+.input-checkbox {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -313,7 +313,7 @@ Hero
   min-height: 100vh;
   margin-top: -6rem;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/backgroundmain.jpg) center/cover;
+    url(/background.jpg) center/cover;
   display: grid;
   place-items: center;
   color: var(--clr-white);
@@ -821,4 +821,15 @@ Single Product Page
   .single-product-center {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.not-availabale{
+  font-size: 20px;
+  font-weight: 600;
+  background: white;
+  border-radius: 10%;
+}
+
+.input-checkbox{
+  margin-right: 10px;
 }
