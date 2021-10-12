@@ -47,14 +47,14 @@
           <button class="toggle-cart">
             <i class="fas fa-shopping-cart"></i>
           </button>
-          <span class="cart-item-count">1</span>
+          <span class="cart-item-count" style="color: black">1</span>
         </div>
       </div>
     </nav>
     <!-- hero -->
     <section class="page-hero">
       <div class="section-center">
-        <h3 class="page-hero-title">Home / Products</h3>
+        <h3 class="page-hero-title">Home / <span class="page-hero-title-active">Products</span> </h3>
       </div>
     </section>
     <!-- sidebar -->
@@ -100,7 +100,7 @@
         <div class="cart-items">
           <article class="cart-item" data-id="">
             <img
-              src="/backgroundmain.jpg"
+              src="/background.jpg"
               class="cart-item-img"
               alt="name"
             />
@@ -131,52 +131,54 @@
       </aside>
     </div>
     <!-- products -->
-    <section class="products">
+    <div class="section-wrapper">
+      <section class="products">
 
-      <!-- filters -->
-      <div class="filters">
-        <div class="filters-container">
-          <!-- search -->
-          <form class="input-form">
-            <input type="text" class="search-input" placeholder="search..." />
-          </form>
-          <!-- categories -->
-          <h4>Company</h4>
-          <article class="companies"></article>
-          <!-- price -->
-          <h4>Price</h4>
-          <form class="price-form">
-            <input
-              type="range"
-              class="price-filter"
-              min="50"
-              value="50"
-              max="150"
-            />
-          </form>
-          <p class="price-value"></p>
-          <input type="checkbox" class="input-checkbox">Available
+        <!-- filters -->
+        <div class="filters">
+          <div class="filters-container">
+            <!-- search -->
+            <form class="input-form">
+              <input type="text" class="search-input" placeholder="search..." />
+            </form>
+            <!-- categories -->
+            <h4>Company</h4>
+            <article class="companies"></article>
+            <!-- price -->
+            <h4>Price</h4>
+            <form class="price-form">
+              <input
+                type="range"
+                class="price-filter"
+                min="50"
+                value="50"
+                max="150"
+              />
+            </form>
+            <p class="price-value"></p>
+            <input type="checkbox" class="input-checkbox">Available
+          </div>
         </div>
-      </div>
-      <!-- products -->
-      <div class="products-container">
-        <!-- <aricle class="product">
-            <div class="product-container">
-              <img src="${image}" alt=""class="product-img img">
-              
-              <div class="product-icons">
-                <button class="product-cart-btn product-icon" data-id="${id}">
-                  <i class="fas fa-shopping-cart"></i>
-                </button>
+        <!-- products -->
+        <div class="products-container">
+          <!-- <aricle class="product">
+              <div class="product-container">
+                <img src="${image}" alt=""class="product-img img">
+                
+                <div class="product-icons">
+                  <button class="product-cart-btn product-icon" data-id="${id}">
+                    <i class="fas fa-shopping-cart"></i>
+                  </button>
+                </div>
               </div>
-            </div>
-            <footer>
-              <p class="product-name">${name}</p>
-              <h4 class="product-price">${formatPrice(price)}</h4>
-            </footer>
-          </aricle> -->
-      </div>
-    </section>
+              <footer>
+                <p class="product-name">${name}</p>
+                <h4 class="product-price">${formatPrice(price)}</h4>
+              </footer>
+            </aricle> -->
+        </div>
+      </section>
+    </div>
     <!-- page loading -->
     <div class="page-loading">
       <h2>Loading...</h2>

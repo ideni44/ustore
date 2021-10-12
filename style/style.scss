@@ -769,14 +769,17 @@ Single Product Page
 ===============
 */
 .page-hero {
-  min-height: 20vh;
+  min-height: 15vh;
   display: grid;
   place-items: center;
-  background: var(--clr-grey-10);
-  color: var(--clr-grey-5);
+  background: hsl(210deg 100% 94%);
+  color:hsl(210deg 100% 94%);
 }
 .page-hero-title {
   font-weight: 500;
+  &-active{
+    color: red;
+  }
 }
 .single-product {
   padding: 2rem 0;

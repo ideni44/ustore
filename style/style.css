@@ -900,7 +900,7 @@ Products Page
   .products-container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
@@ -917,7 +917,7 @@ Products Page
 
 @media screen and (min-width: 1170px) {
   .products-container {
-    -ms-grid-columns: (1fr)[3];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -937,16 +937,21 @@ Single Product Page
 ===============
 */
 .page-hero {
-  min-height: 20vh;
+  min-height: 15vh;
   display: -ms-grid;
   display: grid;
   place-items: center;
-  background: var(--clr-grey-10);
+  background: rgb(234, 234, 255);
   color: var(--clr-grey-5);
 }
 
 .page-hero-title {
   font-weight: 500;
+  
+}
+
+.page-hero-title-active{
+  color: rgb(218, 146, 146);
 }
 
 .single-product {
