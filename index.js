@@ -3,13 +3,13 @@ import './import/toggleSidebar.js';
 import './import/toggleCart.js';
 import './store/setupCart.js'
 
-import { display } from './display.js';
+import display from '../display.js';
 import { getElement,setStorageItem,getStorageItem } from './utili.js';
 
 
 const goods = [
     {
-        id:1,
+        id:'a1',
         feature:true,
         available: true,
         price:80,
@@ -18,7 +18,7 @@ const goods = [
         genre:'Action-adventure'
     },
     {
-        id:2,
+        id:'a2',
         feature:false,
         available: true,
         price:20,
@@ -27,7 +27,7 @@ const goods = [
         genre:'Puzzle-platform'
     },
     {
-        id:3,
+        id:'a3',
         feature:false,
         available: true,
         price:5,
@@ -35,7 +35,7 @@ const goods = [
         title:'Lost Ark',
         genre:'MMORPG'
     },{
-        id:4,
+        id:'a4',
         feature:true,
         available: true,
         price:70,
@@ -44,7 +44,7 @@ const goods = [
         genre:'Action-adventure'
     },
     {
-        id:5,
+        id:'a5',
         feature:false,
         available: false,
         price:30,
@@ -53,7 +53,7 @@ const goods = [
         genre:'Action-adventure'
     },
     {
-        id:6,
+        id:'a6',
         feature:false,
         available: true,
         price:5,
@@ -62,7 +62,7 @@ const goods = [
         genre:'Moba'
     },
     {
-        id:7,
+        id:'a7',
         feature:false,
         available: true,
         price:10,
@@ -71,7 +71,7 @@ const goods = [
         genre:'Turn-based strategy'
     },
     {
-        id:8,
+        id:'a8',
         feature:false,
         available: true,
         price:30,
@@ -80,7 +80,7 @@ const goods = [
         genre:'Action-adventure'
     },
     {
-        id:9,
+        id:'a9',
         feature:false,
         available: true,
         price:30,
@@ -89,7 +89,7 @@ const goods = [
         genre:'Action-adventure'
     },
     {
-        id:10,
+        id:'a10',
         feature:false,
         available: true,
         price:5,
@@ -98,7 +98,7 @@ const goods = [
         genre: 'Tactical shooter'
     },
     {
-        id:11,
+        id:'a11',
         feature:true,
         available: true,
         price:100,
@@ -107,7 +107,7 @@ const goods = [
         genre: 'Tactical shooter'
     },
     {
-        id:12,
+        id:'a12',
         feature:false,
         available: true,
         price:20,
@@ -116,7 +116,7 @@ const goods = [
         genre:'Sandbox'
     },
     {
-        id:13,
+        id:'a13',
         feature:false,
         available: true,
         price:40,
@@ -125,7 +125,7 @@ const goods = [
         genre: 'Action-adventure'
     },
     {
-        id:14,
+        id:'a14',
         feature:false,
         available: true,
         price:20,

@@ -2,7 +2,7 @@ import '../import/toggleSidebar.js';
 import '../import/toggleCart.js';
 import '../store/setupCart.js'
 import { getElement, getStorageItem } from '../utili.js';
-import { display } from '../display.js';
+import display from "../display.js";
 import setupGenre from '../sort/genre.js';
 import searchProduct from '../sort/search.js';
 import priceProduct from '../sort/price.js';

@@ -1,4 +1,5 @@
-import { display } from "../display.js";
+
+import display from "../display.js";
 import { getElement } from "../utili.js";
 
 const setupGenre = (store) =>{

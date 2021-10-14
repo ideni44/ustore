@@ -1,4 +1,4 @@
-import { display } from "../display.js";
+import display from "../display.js";
 import { getElement } from "../utili.js";
 
 function searchProduct(store){
