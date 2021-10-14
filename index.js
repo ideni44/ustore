@@ -1,18 +1,11 @@
 // global imports
 import './import/toggleSidebar.js';
 import './import/toggleCart.js';
-import './import/setupCart.js'
+import './store/setupCart.js'
 
 import { display } from './display.js';
 import { getElement,setStorageItem,getStorageItem } from './utili.js';
 
-
-// specific imports
-// import fetchProducts from './src/fetchProducts.js';
-// import { setupStore, store } from './src/store.js';
-// import display from './src/displayProducts.js';
-// import { getElement } from './src/utils.js';
-  
 
 const goods = [
     {
@@ -141,6 +134,7 @@ const goods = [
         genre: 'Tactical shooter'
     }
 ]
+
 
 window.addEventListener('DOMContentLoaded',()=>{
     console.log(true)

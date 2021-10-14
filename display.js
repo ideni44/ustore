@@ -1,3 +1,6 @@
+import { addToCart } from './store/setupCart.js';
+// import { setupStoreLocal } from './store/store.js';
+import {openCart} from './import/toggleCart.JS'
 
 
 export function display(products,elem,filter){
@@ -12,7 +15,7 @@ export function display(products,elem,filter){
           <div class="product-icons">
             <button class="product-cart-btn product-icon" data-id="${id}">
               <i class="fas fa-shopping-cart"></i>
-            </button>
+            </button>   
           </div>
         </div>
         <footer>
@@ -21,7 +24,6 @@ export function display(products,elem,filter){
         </footer>
       </aricle> `
         }
-        else{
           return `
         <aricle class="product" data-genre='${genre}'>
         <div class="product-container">
@@ -36,13 +38,12 @@ export function display(products,elem,filter){
           <h4 class="product-price">${price}$</h4>
         </footer>
       </aricle> `
-        }
       }).join('')
 
     if(filter)return;
     elem.addEventListener('click',(event)=>{
-        if(event.target.classList.contains('product-cart-btn')){
-            console.log(true)
+        if(event.target.parentElement.classList.contains('product-cart-btn')){
+             addToCart(parseInt(event.target.parentElement.dataset.id))
         }
     })
 }
