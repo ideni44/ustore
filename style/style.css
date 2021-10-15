@@ -134,6 +134,7 @@ p {
 .img {
   width: 100%;
   display: block;
+  
 }
 
 .text-slanted {
@@ -215,6 +216,14 @@ Navbar
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.page{
+  background: white;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+}
+
 
 .nav-center {
   width: 90vw;
@@ -606,6 +615,7 @@ Cart
   width: 75%;
   margin: 0 auto;
   margin-bottom: 3rem;
+  color: black;
 }
 
 /* cart item */
@@ -1016,5 +1026,14 @@ Single Product Page
 
 .input-checkbox {
   margin-right: 10px;
+}
+
+.footer{
+  background-color: blanchedalmond;
+  height: 80px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: calc(50vh - 80px);
+
 }
 /*# sourceMappingURL=style.css.map */
