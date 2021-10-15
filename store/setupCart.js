@@ -62,7 +62,7 @@ import {
     const amount = cart.reduce((sum,cartItem)=>{
       return (sum += cartItem.price * cartItem.amount)
     },0)
-    cartTotalDOM.textContent = `Total : ${amount}`
+    cartTotalDOM.textContent = `Total : ${amount}$`
   }
   
   function increaseAmount(id){

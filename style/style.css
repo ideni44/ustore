@@ -237,7 +237,7 @@ Navbar
 .toggle-nav {
   background: var(--clr-primary-5);
   border-color: transparent;
-  color: var(--clr-white);
+  color: black;
   width: 3.75rem;
   height: 2.25rem;
   display: -webkit-box;

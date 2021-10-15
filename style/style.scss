@@ -198,9 +198,9 @@ Navbar
   display: none;
 }
 .toggle-nav {
-  background: var(--clr-primary-5);
+  background: black;
   border-color: transparent;
-  color: var(--clr-white);
+  color: black;
   width: 3.75rem;
   height: 2.25rem;
   display: flex;
@@ -513,6 +513,7 @@ Cart
   width: 75%;
   margin: 0 auto;
   margin-bottom: 3rem;
+  color: black;
 }
 /* cart item */
 .cart-item {
@@ -646,6 +647,8 @@ product
   margin: 0 auto;
   text-align: center;
   color: black;
+  background: blue
+
 }
 @media screen and (min-width: 992px) {
   .featured-center {
